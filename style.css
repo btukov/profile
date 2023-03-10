@@ -1,0 +1,82 @@
+.container{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color:aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:slategrey;
+  font-size: larger;
+  line-height: normal;
+}
+
+h1, h2 {
+  color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+  line-height: 0vmax;
+}
+
+#profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+a {
+  color:cornflowerblue;
+  text-decoration: none;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  box-shadow:0px 10px 30px rgb(0 0 0/ 10%);
+  margin: 20px 0px;
+  border: 4px
+}
+
+a:hover {
+  color: blue;
+}
+
+.tukov {
+  background-color:darkcyan;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
